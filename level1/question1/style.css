@@ -1,0 +1,20 @@
+#dot {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 500px;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #FFF;
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+}
+
