@@ -1,0 +1,31 @@
+1. What is the DOM?
+    The DOM(Document Object Model) can be called the link between javascript and html/css. It's the API that is used for javascript to be able to use and edit information and design of HTML/CSS elements.
+
+2. List three methods to manipulate the DOM.
+    document.createElement(); - Can be used to create a new HTML element
+    parentNode.removeChild(); - Can be used to remove an element from the DOM tree
+    node.appendChild(); - Can be used to append a node as a child of a node. For example inserting a new div under an existing one.
+
+3. What is an asynchronous call?
+    An Asynchronous call will wait for a request to respond or a set timer to finish, while the rest of the code in the script will continue executing, no matter where the call is placed in the script.
+    An example is a function with a timedelay in it, the function will then not execute until this timer is done.
+
+4. Briefly explain what the sources tab in Chromes Developers Tools does.
+    The Chrome Devtools is a toolset integrated into the browser Google Chrome.
+    There are alot of different functions available, mainly for web developement. You can inspect each sites elements, scripts and files. It has a console for logging errors etc.
+    You can debug using event listeners and breakpoints. It can also be used to check and test the performance of the webpage, as well as checking if it adheres to certain standards.
+
+5. What is a JavaScript promise?
+    A javascript promise is basically the "placeholder" for the result of an asynchronous call. There are 3 states for each promise; Pending, Fulfilled and Rejected.
+    Pending is when the asynchronous call has not finished yet so the result has not been reached. Fulfilled is when the promise has been completed, as in the async call has returned a result.
+    Rejected is if the async call fails and the promise was never fulfilled.
+
+6. What is an API?
+    An Application Programming Interface is a application/service set of tools and function that allows a programmer to access features of that service.
+    An example would be using Google Maps API to make an interactive map on your website. Google offers functions and code to let us access certain function of their service, so we can link that to our code.
+
+7. What is a JavaScript Event?
+    JS events are basically all actions that happens on a website, and in JS this can be used to add functions to the events. An event can be the page loading, a user hovering over a certain element, resizing the window etc.
+
+8. What is event bubbling?
+    Event bubbling is basically when you assign a function to happen on a click of a certain HTML element, and due to event bubbling it includes for example another element that is nested in the same parent element.
